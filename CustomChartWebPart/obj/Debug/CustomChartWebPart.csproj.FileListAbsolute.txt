@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2010\Projects\CustomChartWebPart\CustomChartWebPart\bin\Debug\CustomChartWebPart.dll
+c:\users\administrator\documents\visual studio 2010\Projects\CustomChartWebPart\CustomChartWebPart\bin\Debug\CustomChartWebPart.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\CustomChartWebPart\CustomChartWebPart\obj\Debug\CustomChartWebPart.dll
+c:\users\administrator\documents\visual studio 2010\Projects\CustomChartWebPart\CustomChartWebPart\obj\Debug\CustomChartWebPart.pdb
+\\tsclient\C\Users\narek.arzumanyan\Desktop\CustomChartWebPart\CustomChartWebPart\bin\Debug\CustomChartWebPart.dll
+\\tsclient\C\Users\narek.arzumanyan\Desktop\CustomChartWebPart\CustomChartWebPart\bin\Debug\CustomChartWebPart.pdb
+\\tsclient\C\Users\narek.arzumanyan\Desktop\CustomChartWebPart\CustomChartWebPart\obj\Debug\CustomChartWebPart.csprojResolveAssemblyReference.cache
+\\tsclient\C\Users\narek.arzumanyan\Desktop\CustomChartWebPart\CustomChartWebPart\obj\Debug\CustomChartWebPart.dll
+\\tsclient\C\Users\narek.arzumanyan\Desktop\CustomChartWebPart\CustomChartWebPart\obj\Debug\CustomChartWebPart.pdb

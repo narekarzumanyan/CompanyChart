@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Chart WebPart Feature" Id="c2f3b4aa-5cdf-40ab-ad1f-fc2e12c25f12" Scope="Site" Title="CustomChartWebPart">
+  <ElementManifests>
+    <ElementManifest Location="VisualChartWebPart\Elements.xml" />
+    <ElementFile Location="VisualChartWebPart\CustomChartWebPart.webpart" />
+  </ElementManifests>
+</Feature>

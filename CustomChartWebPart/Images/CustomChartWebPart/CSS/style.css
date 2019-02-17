@@ -1,0 +1,352 @@
+﻿.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+#prof-col1 {
+ padding-right: 0px !important;
+}
+a {
+    text-decoration: none;
+}
+#tab-container{
+    width: 500px;
+    
+}
+#tab-container ul{
+    line-height: 1em;
+    list-style: none;
+    list-style-position: outside;
+    margin : 0px !important;
+    width: 100%;
+}
+#tab-container ul.tab-menu li{
+    display: block;
+    float: left;
+    position: relative;
+    font-weight: 700;
+    padding: 5px 10px 10px 10px;
+    background: #eee;
+    border: 1px solid #ddc;
+    border-bottom: none;
+    border-width: 1px;
+    color: #999;
+    cursor: pointer;
+    height: 14px;
+    margin-bottom: -1px !important;
+    margin-right: 3px !important;
+    margin-left : 0px !important;
+    margin-top : 0px !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#tab-container ul.tab-menu li.active{
+    background: #fff;
+    color : #f50 !important;
+    height: 15px;
+    border-bottom: 0;
+}
+.tab-top-border {
+    border-bottom: 1px solid #d0ccc9;
+}
+.tab-content{
+    margin: 0 auto;
+    background: #efefef;
+    background: #fff;
+    border: 1px solid #ddc;
+    border-top-style: none;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 11pt;
+    display: none;
+    overflow: auto;
+}
+#tab-container div.active{
+    display: block;
+}
+.tab-content h1{
+    line-height: 1em;
+    height: 28px;
+    font-size: 22px;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+/*//ArsNV // http://SmartProductionLLC.com// */
+/*Now the CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+* {margin: 0; padding: 0;}
+.tree ul {
+	padding-top: 20px; position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.display_none{
+	display:none !important;
+}
+.tree 
+{
+    width:700px;
+    height : 583px;
+}
+
+.tree li {
+	  min-width: 33.3%;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 20px 0px 0 0px;	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+
+.float_left::before, .float_left::after{
+	content: '';
+	position: absolute; top: 0; right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%; height: 20px;
+}
+.float_left::after{
+	right: auto; left: 50%;
+	border-left: 1px solid #ccc;
+}
+
+.float_left{
+	float:left;
+}
+
+.opened_ul{
+	padding-top:0 !important;
+}
+
+.opened_ul::after, .opened_ul::before,.opened_uli_ul::after, .opened_uli_ul::before {
+	display: none;
+}
+
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+
+.tree li:only-child{ padding-top: 0;}
+
+
+
+.tree ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
+
+.tree li a{
+	border: 1px solid #adadad;
+	padding: 5px 10px;
+	text-decoration: none;
+	display:inline-block;
+	color: #ff6600 !important;
+	font-family: arial, verdana, tahoma;
+	font-size: 14px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	cursor:default !important;
+}
+.tree li a:hover, .tree li a:hover+ul li a {
+	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+	border-color:  #94a0b4;
+}
+.tree li a h3:hover
+{
+    text-decoration:underline;
+    cursor:pointer !important;
+}
+.tree a img{
+	float:left;
+	width: 60px;
+	height: 60px;
+}
+.tree a .user_name{
+	float:left;
+    margin: 14px 15px 0 15px;
+}
+.tree a .open_close{
+	float:left;
+	background:url(../images/open.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	margin-top: 14px;
+	background-position: center;
+	background-size: 40%;
+	cursor :pointer !important;
+}
+.tree a .close{
+	background:url(../images/close.png) no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+.tree a h2{
+	font-size:16px;
+}
+.tree a p{
+	color:#000;
+}
+@media screen and (min-width:700px)  and (max-width:916px){
+	
+
+.tree li:first-child::before, .tree li:last-child::after,.tree li:nth-child(3n)::after,.tree li:nth-child(4n)::before{
+	border: 0 none;
+}
+.tree li:last-child::before,.tree li:nth-child(3n)::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after,.tree li:nth-child(3n)::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+.tree a img{
+	float:left;
+	width: 40px;
+	height: 40px;
+}
+h3{
+	font-size: 12px;
+}
+
+p{
+	font-size: 10px;
+}
+
+.tree a .open_close {
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  background-size: 40%;
+}
+
+.tree a .user_name {
+  margin: 7px 7px 0 7px;
+}
+}
+
+@media screen and (max-width:700px){
+	
+.tree li {
+  min-width: 49%;
+}
+.tree li:first-child::before, .tree li:last-child::after,.tree li:nth-child(2n)::after,.tree li:nth-child(2n+1)::before{
+	border: 0 none;
+}
+.tree li:last-child::before,.tree li:nth-child(2n)::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after,.tree li:nth-child(2n+1)::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+.tree a img{
+	float:left;
+	width: 40px;
+	height: 40px;
+}
+h3{
+	font-size: 12px;
+}
+
+p{
+	font-size: 10px;
+}
+
+.tree a .open_close {
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  background-size: 40%;
+}
+
+.tree a .user_name {
+  margin: 7px 7px 0 7px;
+}
+}
+
+@media screen and (min-width:916px) and (max-width:1600px){
+.tree li:first-child::before, .tree li:last-child::after,.tree li:nth-child(3n+1)::before,.tree li:nth-child(3n)::after{
+	border: 0 none;
+}
+.tree li:last-child::before,.tree li:nth-child(3n)::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after,.tree li:nth-child(3n+1)::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+}
+
+@media screen and (min-width:1600px){
+.tree li:first-child::before, .tree li:last-child::after,.tree li:nth-child(4n)::after,.tree li:nth-child(4n+1)::before{
+	border: 0 none;
+}
+.tree li:last-child::before,.tree li:nth-child(4n)::before{
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after,.tree li:nth-child(4n+1)::after{
+	border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+}
+.tree li {
+  min-width: 24%;
+}
+}

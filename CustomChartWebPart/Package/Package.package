@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c361e217-518e-4830-b019-3249f854c61f" solutionId="c361e217-518e-4830-b019-3249f854c61f" resetWebServer="false" name="CustomChartWebPart" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c2f3b4aa-5cdf-40ab-ad1f-fc2e12c25f12" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="ca2aeb10-bef1-46a8-87f8-bdbc5ba6c053" />
+  </projectItems>
+</package>
